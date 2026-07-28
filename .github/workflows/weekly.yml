@@ -49,6 +49,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          gh label create weekly-report \
+            --description "週次競合レポート" --color 0E8A16 || true
           gh issue create \
             --title "週次競合レポート $(date +%F)" \
             --body-file reports/report_latest.md \
