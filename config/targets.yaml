@@ -1,0 +1,31 @@
+# 監視対象の定義(業種を変えたい場合はここを差し替えるだけ)
+# type: news(お知らせ) / update(機能更新) / pricing(料金)
+niche: "建設業向けバーティカルSaaS"
+
+targets:
+  - name: "ANDPAD_news"
+    url: "https://andpad.jp/posts/news"
+    type: news
+  - name: "ANDPAD_update"
+    url: "https://andpad.jp/posts/update"
+    type: update
+  - name: "ANDPAD_pricing"
+    url: "https://andpad.jp/help/pricing/"
+    type: pricing
+  - name: "Aldagram_KANNA_news"
+    url: "https://aldagram.com/news/"
+    type: news
+
+# robots.txt で自動アクセスを拒否しているサイトは collector.py が自動でスキップします。
+# 2026-07 時点の確認結果:
+#   andpad.jp    : 取得可
+#   aldagram.com : 取得可
+#   spiderplus.co.jp : Disallow のため対象外(追加しないこと)
+
+# AI分析の観点(プロンプトに埋め込まれる)
+analysis_focus:
+  - "料金改定・プラン変更・値上げの兆候"
+  - "新機能・新プロダクトの発表"
+  - "他社との提携・資本提携・M&A"
+  - "自治体/大手企業への導入(市場拡大の方向性)"
+  - "大手が手を出していない領域=参入余地のあるニッチ"
