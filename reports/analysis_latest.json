@@ -1,4 +1,11 @@
 {
-  "findings": [],
-  "weekly_summary": "今週は監視対象に有意な変更なし。"
+  "findings": [
+    {
+      "target": "Aldagram_KANNA_news",
+      "importance": 3,
+      "summary": "+ プレスリリース お知らせ / - お知らせ プレスリリース / + 2026/08/02 プレスリリース 【令和8年熊本地震】被災地の復旧・復興活動に向け、現場DXサービス「KANNA」を6ヶ月間無償提供",
+      "action": "差分を目視確認"
+    }
+  ],
+  "weekly_summary": "AI分析が利用できなかったため機械的な差分一覧のみ。"
 }
