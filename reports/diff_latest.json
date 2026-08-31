@@ -1,10 +1,7 @@
 {
   "ANDPAD_news": {
-    "status": "changed",
-    "changes": [
-      "+ 2026.8.20 ニュース 東京ガス・ダイキン・カインズ各社と戦略的資本業務提携を締結 VIEW MORE",
-      "- VIEW MORE 2026.3.05 ニュース ANDPAD AWARD 2026 DXカンパニー部門・DXプロジェクト部門の入賞企業を発表"
-    ]
+    "status": "no_change",
+    "changes": []
   },
   "ANDPAD_pricing": {
     "status": "no_change",
