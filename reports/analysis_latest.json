@@ -1,4 +1,29 @@
 {
-  "findings": [],
-  "weekly_summary": "今週は監視対象に有意な変更なし。"
+  "findings": [
+    {
+      "target": "ANDPAD_news",
+      "importance": 3,
+      "summary": "+ レポート / + ゼネコン / - ゼネコン",
+      "action": "差分を目視確認"
+    },
+    {
+      "target": "ANDPAD_pricing",
+      "importance": 3,
+      "summary": "+ レポート / + ゼネコン / - ゼネコン",
+      "action": "差分を目視確認"
+    },
+    {
+      "target": "ANDPAD_update",
+      "importance": 3,
+      "summary": "+ レポート / + ゼネコン / - ゼネコン",
+      "action": "差分を目視確認"
+    },
+    {
+      "target": "Aldagram_KANNA_news",
+      "importance": 3,
+      "summary": "+ 2026/09/30 プレスリリース 現場AIプラットフォーム「KANNA」、図面上の指摘をその場でタスク化、音声AIとの連携にも対応 / + 【令和8年熊本地震】被災地の復旧・復興活動に\u0000\u0000向け、現場DXサービス「KANNA」を6ヶ月間無償提供 / - 【令和8年熊本地震】被災地の復旧・復興活動に向け、現場DXサービス「KANNA」を6ヶ月間無償提供",
+      "action": "差分を目視確認"
+    }
+  ],
+  "weekly_summary": "AI分析が利用できなかったため機械的な差分一覧のみ。"
 }
